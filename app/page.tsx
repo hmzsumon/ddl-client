@@ -13,7 +13,7 @@ export default function Home() {
 		<HomeLayout>
 			<div>
 				<HeroSection />
-				{/* <EmblaCarousel slides={SLIDES} options={OPTIONS} /> */}
+				<EmblaCarousel slides={SLIDES} options={OPTIONS} />
 			</div>
 		</HomeLayout>
 	);
