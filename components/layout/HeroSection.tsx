@@ -12,11 +12,11 @@ const HeroSection = () => {
 				for content creation, social communication, and live entertainment.
 			</p>
 			<div className=' '>
-				<button className='flex btn-gradient mt-5 py-3  rounded-3xl  items-center justify-center gap-3 text-xl font-bold w-full'>
-					<CircleUser size={25} />
+				<button className='flex btn-gradient mt-5 py-3  rounded-3xl  items-center justify-center gap-3 md:text-xl font-bold w-full'>
+					<CircleUser size={24} />
 					Log in / Sign up
 				</button>
-				<button className='flex bg-white text-gray-800 mt-2 py-3  rounded-3xl  items-center justify-center gap-3 text-xl font-bold w-full'>
+				<button className='flex bg-white text-gray-800 mt-2 py-3  rounded-3xl  items-center justify-center gap-3 md:text-xl font-bold w-full'>
 					Get DDL App
 				</button>
 			</div>
