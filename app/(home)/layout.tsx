@@ -10,7 +10,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
 			</video>
 			<NavBar />
 			<Container>
-				<div className='content'>{children}</div>
+				<div className='content  w-[95%] md:w-[70%]  '>{children}</div>
 			</Container>
 			<div className='FBUxA flex'>
 				<div className='bkaTO'></div>

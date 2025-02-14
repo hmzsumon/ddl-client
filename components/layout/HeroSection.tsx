@@ -11,9 +11,9 @@ const HeroSection = () => {
 			<p className='text-center md:text-2xl font-bold mt-5'>
 				for content creation, social communication, and live entertainment.
 			</p>
-			<div>
-				<button className=' hidden md:flex btn-gradient mt-5 py-4 px-10 rounded-2xl  items-center gap-3 text-2xl font-bold'>
-					<CircleUser size={30} />
+			<div className='flex justify-center md:justify-start '>
+				<button className='flex btn-gradient mt-5 py-3  rounded-2xl  items-center justify-center gap-3 text-xl font-bold w-full'>
+					<CircleUser size={25} />
 					Log in / Sign up
 				</button>
 			</div>
